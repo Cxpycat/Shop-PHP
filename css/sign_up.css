@@ -1,0 +1,68 @@
+.sign_up_head {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../img/page-head.jpg");
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  padding: 35px 0px;
+}
+
+.sign_up_head span {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  color: white;
+}
+
+.sign_up_head a {
+  font-size: 15px;
+  color: white;
+}
+
+.sign_up_head a:hover {
+  color: #90bf2a;
+  text-decoration: underline #90bf2a;
+  cursor: pointer;
+}
+
+.head_link {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.head_link span {
+  font-size: 15px;
+  color: white;
+  margin: 0 15px;
+}
+
+.sign_up_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 40px;
+}
+.sign_up_form input {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.sign_up_form label {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  margin-left: 25px;
+}
+
+.sign_up_item {
+  display: flex;
+  flex-direction: column;
+}
+
+#phone {
+  margin-bottom: 30px;
+}

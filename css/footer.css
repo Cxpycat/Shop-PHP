@@ -1,0 +1,150 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  margin: 100px 50px 0 50px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.footer_item_1 {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  width: 350px;
+}
+
+.footer_item_1_svg_text {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 15px 0 15px 0;
+}
+.footer_item_1_svg_text svg {
+  width: 40px;
+  height: 40px;
+  margin: 10px 20px;
+  margin-left: 0px;
+}
+
+.footer_item_1_text {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer_item_1 h4 {
+  margin: 0px;
+}
+
+.text_map {
+  flex-direction: row;
+}
+
+.footer_item_1_smm {
+  display: flex;
+  flex-direction: row;
+}
+.footer_item_1_smm svg {
+  margin: 0px 10px;
+  width: 32px;
+  height: 32px;
+  padding: 5px;
+  border-radius: 100%;
+}
+.footer_item_1_smm svg:hover {
+  fill: #ffffff;
+  background-color: #90bf2a;
+}
+.footer_item_2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer_item_2 h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 24px 0 24px 0;
+}
+.footer_item_2 a {
+  font-size: 15px;
+  line-height: 24px;
+  margin: 0 0 10px 0;
+  max-width: 115px;
+}
+
+.footer_item_2 a:hover {
+  padding-left: 10px;
+  color: #90bf2a;
+  text-decoration: underline #90bf2a;
+  transition: padding-left 1s;
+}
+.footer_item {
+  margin: 0px 30px;
+}
+
+.footer_item_3 h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 24px 0 24px 0;
+}
+
+.item_3_img {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 350px;
+}
+
+.item_3_img img {
+  margin: 5px;
+  width: 80px;
+  height: 90px;
+}
+
+.divider_separator_list {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 100px 30px 30px;
+  border-top: #e5e5e5 1px solid;
+  align-items: center;
+  align-content: center;
+}
+
+.divider_separator_list ul {
+  display: flex;
+  flex-direction: row;
+}
+.divider_separator_list li {
+  margin: 10px 5px 0 5px;
+  padding: 0 10px;
+  border-right: 1px solid #666;
+}
+
+.divider_separator_list li:nth-child(7n) {
+  border-right: 0px solid #666;
+}
+.divider_separator_list a {
+  color: #666;
+}
+
+.divider_separator_list a:hover {
+  color: #90bf2a;
+  transition: color 1s;
+}
+.copycight {
+  display: flex;
+  flex-direction: row;
+  background-color: #90bf2a;
+  padding: 20px 100px;
+  align-items: center;
+  justify-content: space-between;
+}
+.copycight p {
+  color: #ffffff;
+  font-size: 14px;
+}
+.copycight img {
+  width: 335px;
+  height: 35px;
+}

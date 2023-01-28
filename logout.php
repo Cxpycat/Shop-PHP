@@ -1,0 +1,10 @@
+<?php
+ session_start();
+ unset($_SESSION['user_login_succes']);
+ SetCookie("id","");
+ SetCookie("lastname","");
+ SetCookie("firstname","");
+ SetCookie("email","");
+ SetCookie("phone","");
+ SetCookie("user_login_succes","");
+ header('Location:index.php');

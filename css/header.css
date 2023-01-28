@@ -1,0 +1,245 @@
+.header_main {
+  display: flex;
+  flex-direction: row;
+  padding: 0 32px;
+  background-color: #ffb71a;
+  border-bottom: 2px solid #666666;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  max-width: 1920px;
+}
+
+.header_list {
+  display: flex;
+  flex-direction: row;
+}
+
+.header_list a {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 200;
+}
+
+.header_logo {
+  cursor: pointer;
+}
+
+.header_list a:hover {
+  text-shadow: 2px 2px 2px #ffffff80;
+  color: #90bf2a;
+  cursor: pointer;
+}
+
+.header_list li {
+  margin: 0 16px;
+}
+
+.header_btn {
+  display: flex;
+  flex-direction: row;
+}
+
+.header_btn li {
+  margin: 0 16px;
+  position: relative;
+}
+.count {
+  position: relative;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  fill: #fff;
+}
+
+.count:hover {
+  fill: #90bf2a;
+}
+
+.count::before {
+  position: absolute;
+  content: attr(data-text);
+  color: #fff;
+  background-color: #90bf2a;
+  padding: 2px;
+  font-size: 10px;
+  line-height: 10px;
+  text-align: center;
+  top: 15px;
+  left: 15px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.btn_login_header {
+  position: relative;
+  cursor: pointer;
+  color: #fff;
+  line-height: 24px;
+  font-size: 14px;
+}
+
+.btn_login_header:hover {
+  color: #90bf2a;
+}
+
+.btn_login_header:hover:before {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:svgjs='http://svgjs.com/svgjs' xmlns:xlink='http://www.w3.org/1999/xlink' width='288' height='288'%3E%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:svgjs='http://svgjs.com/svgjs' xmlns:xlink='http://www.w3.org/1999/xlink' width='288' height='288' viewBox='0 0 288 288'%3E%3Csvg xmlns='http://www.w3.org/2000/svg' width='25' height='25' viewBox='0 -2.93 35 35'%3E%3Cg fill='%2390bf2a' class='color000 svgShape colorfff' transform='translate(-481.391 -197.473)'%3E%3Cpath d='M512.928,224.152a.991.991,0,0,1-.676-.264,21.817,21.817,0,0,0-29.2-.349,1,1,0,1,1-1.322-1.5,23.814,23.814,0,0,1,31.875.377,1,1,0,0,1-.677,1.736Z' class='color000 svgShape'/%3E%3Cpath d='M498.191,199.473a7.949,7.949,0,1,1-7.949,7.95,7.959,7.959,0,0,1,7.949-7.95m0-2a9.949,9.949,0,1,0,9.95,9.95,9.949,9.949,0,0,0-9.95-9.95Z' class='color000 svgShape'/%3E%3C/g%3E%3C/svg%3E%3C/svg%3E%3C/svg%3E");
+}
+
+.btn_login_header::before {
+  position: absolute;
+  content: "";
+  width: 25px;
+  height: 25px;
+  top: 0px;
+  left: -35px;
+  content: "";
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:svgjs='http://svgjs.com/svgjs' xmlns:xlink='http://www.w3.org/1999/xlink' width='288' height='288'%3E%3Csvg xmlns='http://www.w3.org/2000/svg' width='25' height='25' viewBox='0 -2.93 35 35'%3E%3Cg fill='%23fff' class='color000 svgShape' transform='translate(-481.391 -197.473)'%3E%3Cpath d='M512.928,224.152a.991.991,0,0,1-.676-.264,21.817,21.817,0,0,0-29.2-.349,1,1,0,1,1-1.322-1.5,23.814,23.814,0,0,1,31.875.377,1,1,0,0,1-.677,1.736Z' class='color000 svgShape'/%3E%3Cpath d='M498.191,199.473a7.949,7.949,0,1,1-7.949,7.95,7.959,7.959,0,0,1,7.949-7.95m0-2a9.949,9.949,0,1,0,9.95,9.95,9.949,9.949,0,0,0-9.95-9.95Z' class='color000 svgShape'/%3E%3C/g%3E%3C/svg%3E%3C/svg%3E");
+  fill: #888888;
+}
+
+.menu_header_btn,
+.menu_header_list {
+  display: flex;
+  align-items: center;
+}
+
+.modal {
+  position: fixed;
+  z-index: 3;
+  color: #222222;
+  background-color: #f4f0ea;
+  border-radius: 35px;
+  box-shadow: 0 35px 60px #666;
+}
+
+.modal_auth {
+  padding: 30px;
+  width: 430px;
+  top: 120px;
+  left: 50%;
+  margin-left: -215px;
+  display: none;
+}
+.modal_show {
+  display: block;
+}
+.auth {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth h2 {
+  text-align: center;
+}
+.modal_checkbox_forget {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.auth .input_text {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: auto;
+}
+
+.label_child {
+  margin: 20px 10px 5px 15px;
+}
+
+.btn_login {
+  margin: 10px 90px;
+}
+
+.btn_sign_up {
+  color: #666;
+  text-align: center;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0 0 0 0;
+  text-decoration: underline #00000000;
+}
+
+.btn_sign_up:hover {
+  text-decoration: underline #90bf2a 2px;
+  transition: text-decoration 1s;
+}
+.modal_close_btn {
+  position: absolute;
+  z-index: 2;
+  top: 8px;
+  right: -40px;
+  width: 32px;
+  height: 32px;
+  border: 0px;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.modal_close_btn::after,
+.modal_close_btn::before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 16px;
+  width: 32px;
+  height: 4px;
+  background-color: #ff0000;
+  border: rgb(255, 170, 170) 1px solid;
+}
+.modal_close_btn::after {
+  transform: rotate(45deg);
+}
+.modal_close_btn::before {
+  transform: rotate(-45deg);
+}
+.login_checkbox {
+  display: flex;
+  align-items: center;
+}
+.login_checkbox p {
+  padding-left: 15px;
+}
+.login_checkbox input[type="checkbox"] + .checkbox_indicator {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 50px;
+  border: 2px solid #2a292a;
+}
+.login_checkbox input[type="checkbox"]:hover + .checkbox_indicator {
+  border-color: #90bf2a;
+  outline: 5 px auto;
+}
+.login_checkbox input[type="checkbox"]:checked + .checkbox_indicator::before,
+.login_checkbox input[type="checkbox"]:checked + .checkbox_indicator::after {
+  content: "";
+  position: absolute;
+  width: 14px;
+  height: 2px;
+  top: 7px;
+  left: 1px;
+  background-color: #000;
+}
+.login_checkbox input[type="checkbox"]:checked + .checkbox_indicator::before {
+  transform: rotate(45deg);
+}
+.login_checkbox input[type="checkbox"]:checked + .checkbox_indicator::after {
+  transform: rotate(-45deg);
+}
+
+.login_checkbox input[type="checkbox"]:hover + .checkbox_indicator::before,
+.login_checkbox input[type="checkbox"]:hover + .checkbox_indicator::after {
+  background-color: #90bf2a;
+}
+.login_checkbox input[type="checkbox"]:hover + .checkbox_indicator::before {
+  transform: rotate(45deg);
+}
+.login_checkbox input[type="checkbox"]:hover + .checkbox_indicator::after {
+  transform: rotate(-45deg);
+}
